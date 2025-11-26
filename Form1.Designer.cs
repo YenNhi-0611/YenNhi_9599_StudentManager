@@ -56,7 +56,7 @@
             // lblName
             // 
             this.lblName.AutoSize = true;
-            this.lblName.Location = new System.Drawing.Point(51, 49);
+            this.lblName.Location = new System.Drawing.Point(61, 49);
             this.lblName.Name = "lblName";
             this.lblName.Size = new System.Drawing.Size(57, 20);
             this.lblName.TabIndex = 1;
@@ -65,7 +65,7 @@
             // lblGender
             // 
             this.lblGender.AutoSize = true;
-            this.lblGender.Location = new System.Drawing.Point(41, 84);
+            this.lblGender.Location = new System.Drawing.Point(51, 84);
             this.lblGender.Name = "lblGender";
             this.lblGender.Size = new System.Drawing.Size(67, 20);
             this.lblGender.TabIndex = 2;
@@ -75,7 +75,7 @@
             // lblClass
             // 
             this.lblClass.AutoSize = true;
-            this.lblClass.Location = new System.Drawing.Point(62, 116);
+            this.lblClass.Location = new System.Drawing.Point(82, 118);
             this.lblClass.Name = "lblClass";
             this.lblClass.Size = new System.Drawing.Size(36, 20);
             this.lblClass.TabIndex = 3;
@@ -84,14 +84,14 @@
             // 
             // txtName
             // 
-            this.txtName.Location = new System.Drawing.Point(125, 44);
+            this.txtName.Location = new System.Drawing.Point(167, 44);
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(372, 26);
             this.txtName.TabIndex = 4;
             // 
             // txtClass
             // 
-            this.txtClass.Location = new System.Drawing.Point(125, 110);
+            this.txtClass.Location = new System.Drawing.Point(167, 110);
             this.txtClass.Name = "txtClass";
             this.txtClass.Size = new System.Drawing.Size(372, 26);
             this.txtClass.TabIndex = 5;
@@ -102,11 +102,12 @@
             this.cboGender.Items.AddRange(new object[] {
             "nam",
             "nữ"});
-            this.cboGender.Location = new System.Drawing.Point(125, 76);
+            this.cboGender.Location = new System.Drawing.Point(167, 76);
             this.cboGender.Name = "cboGender";
             this.cboGender.Size = new System.Drawing.Size(372, 28);
             this.cboGender.TabIndex = 6;
             this.cboGender.Text = "Chọn giới tính";
+            this.cboGender.SelectedIndexChanged += new System.EventHandler(this.cboGender_SelectedIndexChanged);
             // 
             // btnAdd
             // 
