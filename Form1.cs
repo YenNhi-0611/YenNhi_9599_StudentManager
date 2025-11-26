@@ -36,6 +36,7 @@ namespace StudentManager
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
+            //Them
             Student s = new Student()
             {
                 Name = txtName.Text,
@@ -88,6 +89,11 @@ namespace StudentManager
                 cboGender.Text = dgvStudents.Rows[e.RowIndex].Cells["1"].Value.ToString();
                 txtClass.Text = dgvStudents.Rows[e.RowIndex].Cells["2"].Value.ToString();
             }
+        }
+
+        private void cboGender_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
